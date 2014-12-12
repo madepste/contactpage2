@@ -32,28 +32,53 @@
 	 </ul>
 	 </div>
 	 <div id="content">
-	 <div id="article_heading"><h1>About the Apple 2</h1></div>
 	 <div id="article_body">
-	 <div id="article_photo">
-	 <img src="img/appleii-system.jpg">
+
+	 <form action="" method="post" id="register-form"
+	 novalidate="novalidate">
+
+	 <h2>Sign up to receive news updates!</h2>
+
+	 <div id="form-content">
+	 <fieldset>
+
+	 <div class="fieldgroup">
+	 <label for="firstname">First Name</label>
+	 <input type="text" name="firstname"/>
 	 </div>
-	 <p class="first">
-	 Lorem ipsum dolor sit amet, consectetur adipiscing
-	 elit. Aliquam aliquam, nisl sit amet tempor
-	 malesuada, mi libero commodo nisi, condimentum
-	 dapibus lectus nunc vitae enim. Pellentesque porta
-	 dignissim nisl, in tincidunt quam accumsan id.
-	 Morbi et metus odio. Interdum et malesuada fames ac
-	 ante ipsum primis in faucibus. Fusce imperdiet enim
-	 vel felis lacinia, sed sollicitudin risus feugiat.
-	 Donec et libero tempus, feugiat justo at, placerat
-	 orci. Vivamus magna lacus, tincidunt ut magna a,
-	 sagittis fermentum nibh. Ut condimentum bibendum
-	 felis, et maximus nunc vehicula eu. Proin enim ex,
-	 placerat vel velit eget, consequat lacinia nisl.
-	 Mauris eget vehicula massa. Praesent eget tellus
-	 ornare, imperdiet enim congue, commodo est.</p>
+
+	 <div class="fieldgroup">
+	 <label for="lastname">Last Name</label>
+	 <input type="text" name="lastname"/>
 	 </div>
+
+	 <div class="fieldgroup">
+	 <label for="email">Email Address</label>
+	 <input type="text" name="email"/>
+	 </div>
+
+	 <div class="fieldgroup">
+	 <label for="password">Password</label>
+	 <input type="text" name="password"/>
+	 </div>
+
+	 <div class="fieldgroup">
+	 <p class="right">By clicking register you agree to our <a
+	 target="_blank" href="/policy">policy</a>.</p>
+	 <input type="submit" value=
+	 Register" class="submit"/>
+	 </div>
+
+	 </fieldset>
+	 </div>
+
+	 <div class="fieldgroup">
+	 <p>Already registered? <a href="/login">Sign In</a>.</p>
+	 </div>
+
+	 </form>
+	 </div>
+	 
 	 </div>
 	 <div id="sidebar">sidebar</div>
 	 <div id="footer">footer</div>
