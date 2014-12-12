@@ -98,6 +98,7 @@ textarea {
 	margin-right: auto;
 	font-size: 20px;
 	line-height: 30px;
+	font-family: Helvetica;
 	}
 	h1 {
 	font-size: 220%;
@@ -125,20 +126,29 @@ textarea {
 	float: left;
 	}
 	#menu {
-	background-image: url('../img/menu_bk.gif');
+	background-color: black;
+	height: 56px;
+	line-height: 56px;
 	}
 	#menu a {
-	color: white;
+	color: #F5F5F0;
+	text-decoration: none;
 	}
 	#menu ul {
 	margin-left: 355px;
 	margin-top: 0px;
 	}
+	#menu li {
+	margin: 0px;
+	display: inline;
+	}
+
 	#sidebar {
 	float: left;
 	}
 	#footer {
 	clear: both;
+	background-color: black;
 	}
 	#article_heading {
 	height: 86px;
@@ -158,18 +168,8 @@ textarea {
 	margin: 0px;
 	}
 	#logo {
-	width: 86px;
+	width: 170px;
 	height: 86px;
-	}
-	#menu {
-	height: 56px;
-	line-height: 56px;
-	}
-	#menu li {
-	margin: 0px;
-	}
-	#menu li {
-	display: inline;
 	}
 
 
